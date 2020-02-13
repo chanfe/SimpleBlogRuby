@@ -5,12 +5,5 @@ class PagesController < ApplicationController
         @content = "This is the about page"
     end
 
-    def index
-        
-    end
-
-    def show
-
-    end
 end
 
