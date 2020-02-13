@@ -38,6 +38,10 @@ class PostsController < ApplicationController
         else
             render 'edit'
         end
+        # json
+        # render json: @post
+        # else
+        # render json: { error: "Post not Found!" }, status: 404
     end
 
     def destroy
